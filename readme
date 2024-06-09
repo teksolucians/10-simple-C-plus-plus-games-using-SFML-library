@@ -1,0 +1,10 @@
+For each game create a new project and in Project Options: 
+make the "Include Directories" point to your SFML\include folder
+make the "Library Directories" point to your SFML\lib folder
+
+For parameters for Linker declare the following:
+-lsfml-graphics
+-lsfml-window
+-lsfml-system
+
+
