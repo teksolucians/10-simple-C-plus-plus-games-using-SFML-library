@@ -1,9 +1,16 @@
-For each game create a new project and in Project Options: 
+The images for all 10 games are all combined in one collective images folder. 
+The .cpp and .dev files for all 10 games are also within the same one main folder.
+The SFML library is a separate folder by itself. 
 
-make the "Include Directories" point to your SFML\include folder
-make the "Library Directories" point to your SFML\lib folder
+To play a game, simply open the .dev file for the respective game, and compile and run. 
 
-For parameters for Linker declare the following:
+All system linkers and project Option directory links have been declared already, but in the event of any of the games not running, start troubleshooting by opening the Project Options and:
+
+making sure the "Include Directories" point to your SFML\include folder
+making sure the "Library Directories" point to your SFML\lib folder
+
+For the project option's parameters tab, for Linker, ensure that you have the following:
+
 -lsfml-graphics
 -lsfml-window
 -lsfml-system
