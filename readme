@@ -2,7 +2,9 @@ The images for all 10 games are all combined in one collective images folder.
 The .cpp and .dev files for all 10 games are also within the same one main folder.
 The SFML library is a separate folder by itself. 
 
-To play a game, simply open the .dev file for the respective game, and compile and run. 
+To play a game, simply run the exe.  
+Or if the .exe gives problems to run, you would need to open the .dev file for the respective game, and compile and run (you would need any
+C++ IDE to do so). 
 
 All system linkers and project Option directory links have been declared already, but in the event of any of the games not running, start troubleshooting by opening the Project Options and:
 
